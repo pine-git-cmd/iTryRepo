@@ -1,6 +1,9 @@
 
+
 body {
     background-color: aliceblue;
+     
+
 }
 .category{
     background-color: whitesmoke;
@@ -30,4 +33,14 @@ body {
         font-size: 14px;
         margin-top:10px;
     }
-
+.gallery-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+     padding: 20px;
+}
+.gallery{
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+}
